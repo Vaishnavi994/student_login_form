@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h2 style="margin-left: 10%;">Student Registration</h2>
+        <style>
+            form{
+                margin-left: 10%;
+            }
+            span{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset style="height: 800px;width: 560px;background-color:azure;border:2px solid black;"> 
+                 <legend>STUDENT INFORMATION</legend>
+            <div>
+            
+           Name:<span>*</span><br>
+           <input type="text" placeholder="First name" name="first" size="35" style="height: 30px;">
+           <input type="text" placeholder="Last name" name="secong" size="35" style="height: 30px;">
+           <br><br>
+           E-mail:<span>*</span><br>
+           <input type="text" placeholder="Enter your email" name="email" size="76" style="height:30px">
+           <br><br>
+           Grade:<span>*</span><br>
+           <!----select style="height:35px;width:300px;">
+            <option>B.Tech I year</option>
+            <option>B.Tech II year</option>
+            <option>B.Tech III year</option>
+            <option>B.Tech IV year</option>
+           </select---->
+           <input list="state" type="text" placeholder="Choose one" style="height:35px; width:300px" >
+           <datalist id="state">
+            <option>B.Tech I year</option>
+            <option>B.Tech II year</option>
+            <option>B.Tech III year</option>
+            <option>B.Tech IV year</option>
+           </datalist>
+
+           Time:
+           <input type="time" style="height:35px;width:190px;">
+           <br><br>
+           Student-number:<span>*</span><br>
+           <input type="text" placeholder="Type your answer" name="phno" size="76" style="height:30px;">
+           <br><br>
+           Favouriate colour:<br>
+           <input type="color" placeholder="Choose your favouriate colour:" style="height:35px;width:541px;">
+
+           <br><br>
+           Date of Birth:<span>*</span><br>
+           <input type="date" name="birthdate"  style="height:30px;width:541px;">
+           <br><br>
+           Phone number:<span>*</span><br>
+           <input type="text" name="area code" placeholder="Area code" value="+91" size="20" style="height: 30px;">
+           <input type="text" name="phone no" placeholder="Phone number" size="10" style="height: 30px;width:370px">
+           <br><br>
+           Address:<span>*</span><br>
+           <input type="text" placeholder="Street Address" name="stad" size="77" style="height:30px;">
+           <br><br>
+           <input type="text" placeholder="Apartment,suite,etc" style="height:30px;width:543px;">
+           <br><br>
+           <input type="text" placeholder="City" style="height:30px;width:250px">
+           <input type="text" placeholder="State" style="height:30px;width:280px">
+           <br><br>
+           <input type="text" placeholder="Postal Code" style="height:30px;width:250px">
+           <input type="text" placeholder="United States of America" style="height:30px;width:280px">
+           <br><br>
+           <input type="button" value="Submit" style="width:541px;height:30px; color: white; background-color: darkblue;">
+        </div>
+        </fieldset>
+        </form>
+    </body>
+</html>
